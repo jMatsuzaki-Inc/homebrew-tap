@@ -47,8 +47,10 @@ Once registered, Claude Code can interact with your TaskChute Cloud 2 tasks dire
 ## Update
 
 ```bash
-brew upgrade tcc2
+brew update; brew upgrade tcc2
 ```
+
+`brew update` fetches the latest formula definitions from the tap. Without it, `brew upgrade` may not detect the newest version.
 
 ## Uninstall
 
