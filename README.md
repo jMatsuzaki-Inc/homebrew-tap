@@ -1,5 +1,8 @@
 # TaskChute Cloud 2 CLI Homebrew Tap
 
+> **Note:** The MCP server requires a Pro plan.
+> Upgrade your plan at the [Plan Settings](https://taskchute.cloud/user/plan) page.
+
 [TaskChute Cloud 2](https://taskchute.cloud) CLI - MCP Server for AI agents.
 
 ## Install
@@ -26,9 +29,6 @@ tcc2 logout
 ```
 
 ## Setting Up with Claude Code
-
-> **Note:** The MCP server requires a Pro plan.
-> Upgrade your plan at the [Plan Settings](https://taskchute.cloud/user/plan) page.
 
 Register tcc2 as an MCP server in Claude Code using the `claude mcp add` command:
 
