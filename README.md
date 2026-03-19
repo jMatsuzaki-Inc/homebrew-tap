@@ -25,6 +25,19 @@ tcc2 mcp
 tcc2 logout
 ```
 
+## Setting Up with Claude Code
+
+> **Note:** The MCP server requires a Pro plan.
+> Upgrade your plan at the [Plan Settings](https://taskchute.cloud/user/plan) page.
+
+Register tcc2 as an MCP server in Claude Code using the `claude mcp add` command:
+
+```bash
+claude mcp add taskchute -- tcc2 mcp
+```
+
+Once registered, Claude Code can interact with your TaskChute Cloud 2 tasks directly through the MCP protocol.
+
 ## Update
 
 ```bash
