@@ -56,3 +56,9 @@ brew upgrade tcc2
 brew uninstall tcc2
 brew untap jMatsuzaki-Inc/tap
 ```
+
+## Limitations & Roadmap
+
+- The MCP server is available exclusively on the Pro plan. You can subscribe from the [Plan Settings](https://taskchute.cloud/user/plan) page.
+- Rate limiting may be introduced in the future to prevent excessive API calls caused by AI agents.
+- Currently, only Google account authentication is supported. Apple login support is planned for a future release.
