@@ -30,7 +30,13 @@ tcc2 logout
 
 ## Setting Up with Claude Code
 
-Register tcc2 as an MCP server in Claude Code using the `claude mcp add` command:
+First, log in to your TaskChute Cloud 2 account:
+
+```bash
+tcc2 login
+```
+
+Then, register tcc2 as an MCP server in Claude Code using the `claude mcp add` command:
 
 ```bash
 claude mcp add taskchute -- tcc2 mcp
