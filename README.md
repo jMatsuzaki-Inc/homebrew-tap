@@ -1,4 +1,4 @@
-# jMatsuzaki-Inc Homebrew Tap
+# TaskChute Cloud 2 CLI Homebrew Tap
 
 [TaskChute Cloud 2](https://taskchute.cloud) CLI - MCP Server for AI agents.
 
