@@ -5,21 +5,21 @@
 class Tcc2 < Formula
   desc "TaskChute Cloud 2 CLI - MCP Server for AI agents"
   homepage "https://github.com/jMatsuzaki-Inc/homebrew-tap"
-  version "0.0.18"
+  version "0.0.19"
   license "Proprietary"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/jMatsuzaki-Inc/homebrew-tap/releases/download/v0.0.18/tcc2_darwin_amd64.tar.gz"
-      sha256 "4a91e3f8d33c37e428bb670567950dccbb623fb58d55604d4d2d7f5cb9b55579"
+      url "https://github.com/jMatsuzaki-Inc/homebrew-tap/releases/download/v0.0.19/tcc2_darwin_amd64.tar.gz"
+      sha256 "e04991faa58aa1b75e184c82f650acbed0e914c444cbccc978f3ba8f57fe9337"
 
       define_method(:install) do
         bin.install "tcc2"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/jMatsuzaki-Inc/homebrew-tap/releases/download/v0.0.18/tcc2_darwin_arm64.tar.gz"
-      sha256 "ff3e28d9b73d4922fe7eb27e9833c9ef154ef403f99ccadbea9e979d08d445a3"
+      url "https://github.com/jMatsuzaki-Inc/homebrew-tap/releases/download/v0.0.19/tcc2_darwin_arm64.tar.gz"
+      sha256 "39cf10a9ebb4e18fb59c272ad2ad3813f4b902a3e2c15ca5c9baa4baf3ca7135"
 
       define_method(:install) do
         bin.install "tcc2"
@@ -29,15 +29,15 @@ class Tcc2 < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/jMatsuzaki-Inc/homebrew-tap/releases/download/v0.0.18/tcc2_linux_amd64.tar.gz"
-      sha256 "6781aabbb3b9085fcd8fbd734677f7a9f6a9735c81c3f940faff141a81ef6aea"
+      url "https://github.com/jMatsuzaki-Inc/homebrew-tap/releases/download/v0.0.19/tcc2_linux_amd64.tar.gz"
+      sha256 "ff9cd44650e727772cf64d2477fde06793f1c996119ca6a4a440f56cb54288b2"
       define_method(:install) do
         bin.install "tcc2"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/jMatsuzaki-Inc/homebrew-tap/releases/download/v0.0.18/tcc2_linux_arm64.tar.gz"
-      sha256 "6df5b5f4a516418b8ab18af548542388216a6cb5f3dd3599498a1ea859a3fb32"
+      url "https://github.com/jMatsuzaki-Inc/homebrew-tap/releases/download/v0.0.19/tcc2_linux_arm64.tar.gz"
+      sha256 "3aa8945d89fa99bb8a6c14e9e90391a5db96de95cb3e774f7890014c0a3a6898"
       define_method(:install) do
         bin.install "tcc2"
       end
